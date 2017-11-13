@@ -11,8 +11,6 @@ import {
 
 import movieQL from './movieQL';
 
-var _ = require('lodash');
-
 const actorInputQL = new GraphQLInputObjectType({
   name: 'actorInputQL',
   fields: {

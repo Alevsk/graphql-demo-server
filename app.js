@@ -1,6 +1,5 @@
 import express from 'express';
 import GraphHTTP from 'express-graphql';
-// import auth from './auth'
 import schemaQL from './graphql/schemaQL';
 
 var app = express();
